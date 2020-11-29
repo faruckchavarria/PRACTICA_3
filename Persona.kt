@@ -10,7 +10,7 @@
     }
 
    }*/
-   class Persona(var nombre:String, var apellido:String)
+  class Persona(var nombre:String, var apellido:String)
 
    fun main(){
     var persona = Persona("Yesser","Miranda")
@@ -22,4 +22,5 @@
     //realizamos que se crea un constructor vacio y luego de eso atraves de la inicializacion del constructor, y se realiza el llamado de la clase para imprimir el nombre y el nuevo nombre
 
    }
+   //con la transformacion se puede realizar solo el primer nombre porque afecta el constructor.
    
